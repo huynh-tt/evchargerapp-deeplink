@@ -1,18 +1,19 @@
-// Optional: dynamic rendering
-export const dynamic = "force-dynamic";
+// src/app/start/[id]/page.tsx
 
-// Correct type from Next.js App Router
-type PageProps = {
+interface PageProps {
   params: {
-    id: string;
+    id: string; // 'id' matches the folder name '[id]'
   };
-};
+  searchParams?: { [key: string]: string | string[] | undefined }; // Optional, if you use search params
+}
 
-export default function Page({ params }: PageProps) {
+export default function StartPage({ params }: PageProps) {
+  const { id } = params;
+
   return (
     <div>
-      <h1>Open in App</h1>
-      <p>Deep link ID: {params.id}</p>
+      <h1>Start Page for ID: {id}</h1>
+      {/* Your component content */}
     </div>
   );
 }
