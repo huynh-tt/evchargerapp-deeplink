@@ -3,7 +3,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.shirokumapower.evchargerapp.dev",
+      "package_name": "com.shirokumapower.evapppublic.dev",
       "sha256_cert_fingerprints": [
         "85:07:A4:08:6D:3B:8E:EE:AF:D8:FC:24:3F:64:11:8D:95:AB:31:99:C0:81:17:B9:20:80:A9:B9:C8:80:0F:50"
       ]
