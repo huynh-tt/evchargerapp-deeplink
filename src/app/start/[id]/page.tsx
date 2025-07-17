@@ -8,7 +8,14 @@ export default async function Page({
   const { id } = await params;
   return (
     <div>
-      <h1 className="text-red-500 text-2xl text-center py-10">
+      <h1
+        style={{
+          textAlign: "center",
+          fontSize: "1.5rem",
+          color: "red",
+          margin: "20px 0",
+        }}
+      >
         Deeplink ID: {id}
       </h1>
       <StartContent id={id} />
