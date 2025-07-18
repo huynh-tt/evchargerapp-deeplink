@@ -1,4 +1,4 @@
-import { StartContent } from "~/components";
+import { StopContent } from "~/components";
 
 export default async function Page({
   params,
@@ -18,7 +18,7 @@ export default async function Page({
       >
         Deeplink ID: {id}
       </h1>
-      <StartContent id={id} />
+      <StopContent id={id} />
     </div>
   );
 }
