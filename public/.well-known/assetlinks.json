@@ -5,7 +5,8 @@
       "namespace": "android_app",
       "package_name": "com.shirokumapower.evapppublic.dev",
       "sha256_cert_fingerprints": [
-        "85:07:A4:08:6D:3B:8E:EE:AF:D8:FC:24:3F:64:11:8D:95:AB:31:99:C0:81:17:B9:20:80:A9:B9:C8:80:0F:50"
+        "85:07:A4:08:6D:3B:8E:EE:AF:D8:FC:24:3F:64:11:8D:95:AB:31:99:C0:81:17:B9:20:80:A9:B9:C8:80:0F:50",
+        "CA:2E:68:9E:D0:54:F8:C6:FB:E7:B9:49:B0:12:38:FD:7B:7A:6A:0B:BC:57:B1:D8:3C:47:ED:19:86:72:46:C9"
       ]
     }
   }
